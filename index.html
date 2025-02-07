@@ -7,6 +7,7 @@
     <title>Stuff of Things</title>
 </head>
 <body>
+
     <header> Text alighnment</header>
 
     <section class="container1">
@@ -15,12 +16,19 @@
         <div class="box"> Box 3 </div>
     </section>
 
-    <section class="container2">
-        <div class="box"> Box A </div>
-        <div class="box"> Box B </div>
-        <div class="box"> Box C </div>
+    <section class="container1">  <!-- used this to nest the two container2 -->
+        <section class="container2">
+            <div class="box"> Box A </div>
+            <div class="box"> Box B </div>
+            <div class="box"> Box C </div>
+       
     </section>
-
+        <section class="container2">
+            <div class="box"> Box A </div>
+            <div class="box"> Box B </div>
+            <div class="box"> Box C </div>
+    </section>
+    </section> 
     <footer>
             <p> End flexbox alighnment</p>
     </footer>
